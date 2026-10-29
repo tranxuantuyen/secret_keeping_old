@@ -1,0 +1,11 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.09it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.12it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]
+loaded in 10s | held-out contexts 20000
+L10 lam*=1 | logit_lens top1=0.012 mrr=0.051 | jacobian_lens top1=0.041 mrr=0.093 | template_lda top1=0.164 mrr=0.252 | template_proj top1=0.148 mrr=0.240
+L15 lam*=1 | logit_lens top1=0.010 mrr=0.050 | jacobian_lens top1=0.052 mrr=0.112 | template_lda top1=0.176 mrr=0.267 | template_proj top1=0.156 mrr=0.250
+L20 lam*=1 | logit_lens top1=0.017 mrr=0.070 | jacobian_lens top1=0.065 mrr=0.133 | template_lda top1=0.187 mrr=0.281 | template_proj top1=0.165 mrr=0.261
+L23 lam*=1 | logit_lens top1=0.027 mrr=0.099 | jacobian_lens top1=0.089 mrr=0.169 | template_lda top1=0.208 mrr=0.309 | template_proj top1=0.181 mrr=0.284
+L26 lam*=0.1 | logit_lens top1=0.084 mrr=0.190 | jacobian_lens top1=0.141 mrr=0.240 | template_lda top1=0.248 mrr=0.349 | template_proj top1=0.229 mrr=0.336
+L30 lam*=1 | logit_lens top1=0.246 mrr=0.372 | jacobian_lens top1=0.267 mrr=0.389 | template_lda top1=0.302 mrr=0.415 | template_proj top1=0.268 mrr=0.388
+L32 lam*=0.1 | logit_lens top1=0.303 mrr=0.431 | jacobian_lens top1=0.317 mrr=0.439 | template_lda top1=0.333 mrr=0.442 | template_proj top1=0.314 mrr=0.432
+L35 lam*=1 | logit_lens top1=0.368 mrr=0.492 | jacobian_lens top1=0.379 mrr=0.498 | template_lda top1=0.361 mrr=0.473 | template_proj top1=0.333 mrr=0.455
+saved templates.pt + wikitext_heldout.json in 22s

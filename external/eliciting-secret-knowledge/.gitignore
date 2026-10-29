@@ -1,0 +1,15 @@
+*.csv
+*.pt
+*.pkl
+unsloth_compiled_cache
+.cache
+.venv
+.env
+wandb
+models
+results
+__pycache__
+*.pdf
+*.png
+*.json
+*.jsonl

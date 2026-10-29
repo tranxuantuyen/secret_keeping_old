@@ -1,0 +1,17 @@
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 370308.07 examples/s]
+Generating train split:   0%|          | 0/1801350 [00:00<?, ? examples/s]Generating train split:   4%|▎         | 64000/1801350 [00:00<00:02, 593822.01 examples/s]Generating train split:  11%|█         | 194000/1801350 [00:00<00:01, 892088.15 examples/s]Generating train split:  18%|█▊        | 331000/1801350 [00:00<00:01, 1089513.27 examples/s]Generating train split:  25%|██▌       | 455000/1801350 [00:00<00:01, 1079793.21 examples/s]Generating train split:  32%|███▏      | 579000/1801350 [00:00<00:01, 1081693.29 examples/s]Generating train split:  40%|███▉      | 717000/1801350 [00:00<00:00, 1168796.61 examples/s]Generating train split:  47%|████▋     | 841000/1801350 [00:00<00:00, 1179704.43 examples/s]Generating train split:  54%|█████▍    | 969675/1801350 [00:00<00:00, 1063205.43 examples/s]Generating train split:  61%|██████    | 1093675/1801350 [00:01<00:00, 1066992.05 examples/s]Generating train split:  68%|██████▊   | 1228675/1801350 [00:01<00:00, 1142892.28 examples/s]Generating train split:  75%|███████▌  | 1354675/1801350 [00:01<00:00, 1119350.87 examples/s]Generating train split:  82%|████████▏ | 1476675/1801350 [00:01<00:00, 1104693.68 examples/s]Generating train split:  90%|████████▉ | 1614675/1801350 [00:01<00:00, 1177680.10 examples/s]Generating train split:  98%|█████████▊| 1765675/1801350 [00:01<00:00, 1185402.42 examples/s]Generating train split: 100%|██████████| 1801350/1801350 [00:01<00:00, 1112468.28 examples/s]
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 415836.07 examples/s]
+wikitext-103 train rows: 1801350
+paragraphs kept: 311867
+tokens: 49071151
+vocabulary: 1000 words, rarest corpus count 740; sample: ['the', 'and', 'was', 'that', 'for', 'with', 'his', 'from'] ... {'gold': 4226, 'flag': 2422, 'moon': 740, 'female': 4868, 'male': 3692, 'woman': 4238, 'man': 8623, 'girl': 2181, 'boy': 1802}
+contexts: 120000 (rejected 20408 that contained the word); words below quota: 0
+saved /weka/ttuyen/Project/secret_keeping/secret_keeping/template_lens/outputs/contexts.pt | fit: 100000 held-out: 20000
+
+[moon]
+  ... <bos>A Polar Axis telescope was built at Jodrell Bank in 1962. This had a circular 50 ft (15.2 m) dish on a polar mount, and was mostly used for [moon]
+  ... <bos>Several nightjar species are known to be more likely to lay in the two weeks before the full [moon]
+
+[female]
+  ... <bos>Two versions of the opening paragraph were written. The slightly cynical, " What a gratifying thing it is in these days to meet with a [female]
+  ...  Sauber F1 in the week before the Korean Grand Prix, appointing the team's CEO, Monisha Kaltenborn as his successor. Kaltenborn's appointment made her the first [female]

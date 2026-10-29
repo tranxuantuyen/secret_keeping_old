@@ -1,0 +1,159 @@
+gender_word: done
+gender_group: done
+taboo: done
+
+=== gender_word [raw]  accuracy over all prompts; first column = paper layer L23; * = 95% CI of the gain over it excludes 0
+readout       method        L23    around 20-23-26    before 15-20-23    spread 15-23-30       all 8 layers
+logit_lens    rrf10        0.90              0.92*              0.96*              0.95*              0.94*
+              rrf60        0.90              0.90               0.95*              0.92*              0.91 
+              borda        0.90              0.87-              0.94*              0.88               0.86-
+              persist50    0.90              0.89               0.95*              0.91               0.89 
+jacobian_lens rrf10        0.88              0.92*              0.97*              0.92*              0.94*
+              rrf60        0.88              0.90               0.98*              0.95*              0.94*
+              borda        0.88              0.89               0.99*              0.96*              0.95*
+              persist50    0.88              0.89               0.97*              0.94*              0.92*
+template_proj rrf10        0.93              0.93               0.93               0.73-              0.81-
+              rrf60        0.93              0.93               0.90               0.71-              0.80-
+              borda        0.93              0.93               0.82-              0.70-              0.82-
+              persist50    0.93              0.93               0.88-              0.71-              0.79-
+template_lda  rrf10        0.94              0.93               0.88-              0.73-              0.83-
+              rrf60        0.94              0.92               0.85-              0.73-              0.83-
+              borda        0.94              0.90-              0.85-              0.75-              0.87-
+              persist50    0.94              0.92               0.84-              0.73-              0.81-
+
+=== gender_word [z]  accuracy over all prompts; first column = paper layer L23; * = 95% CI of the gain over it excludes 0
+readout       method        L23    around 20-23-26    before 15-20-23    spread 15-23-30       all 8 layers
+logit_lens    zavg         0.96              0.97               0.98*              0.99*              0.97 
+              rrf60        0.96              0.96               0.99*              0.97               0.96 
+              borda        0.96              0.95               0.98*              0.91-              0.93-
+              persist50    0.96              0.96               0.99*              0.94               0.94 
+jacobian_lens zavg         0.97              0.98               0.97               0.95               0.95-
+              rrf60        0.97              0.95               0.97               0.96               0.94-
+              borda        0.97              0.96-              0.96               0.95-              0.93-
+              persist50    0.97              0.95               0.97               0.96               0.94-
+template_proj zavg         0.81              0.90*              0.92*              0.83               0.89*
+              rrf60        0.81              0.88*              0.89*              0.83               0.87*
+              borda        0.81              0.87*              0.87*              0.82               0.82 
+              persist50    0.81              0.87*              0.88*              0.82               0.87*
+template_lda  zavg         0.81              0.90*              0.92*              0.83               0.89*
+              rrf60        0.81              0.88*              0.89*              0.83               0.87*
+              borda        0.81              0.87*              0.87*              0.82               0.82 
+              persist50    0.81              0.87*              0.88*              0.82               0.87*
+
+=== gender_group [raw]  accuracy over all prompts; first column = paper layer L23; * = 95% CI of the gain over it excludes 0
+readout       method        L23    around 20-23-26    before 15-20-23    spread 15-23-30       all 8 layers
+logit_lens    rrf10        0.60              0.62               0.67*              0.72*              0.68*
+              rrf60        0.60              0.55-              0.54-              0.60               0.60 
+              borda        0.60              0.55-              0.53-              0.60               0.60 
+              persist50    0.60              0.55-              0.53-              0.60               0.57-
+jacobian_lens rrf10        0.71              0.82*              0.91*              0.82*              0.83*
+              rrf60        0.71              0.76*              0.90*              0.75*              0.76*
+              borda        0.71              0.66-              0.89*              0.66-              0.72 
+              persist50    0.71              0.73               0.87*              0.73               0.75*
+template_proj rrf10        0.83              0.92*              0.82               0.77-              0.88*
+              rrf60        0.83              0.92*              0.78-              0.80-              0.88*
+              borda        0.83              0.90*              0.74-              0.82               0.87*
+              persist50    0.83              0.92*              0.83               0.77-              0.88*
+template_lda  rrf10        0.70              0.91*              0.80*              0.69               0.78*
+              rrf60        0.70              0.87*              0.72               0.65-              0.75*
+              borda        0.70              0.67               0.58-              0.60-              0.64-
+              persist50    0.70              0.89*              0.76*              0.69               0.78*
+
+=== gender_group [z]  accuracy over all prompts; first column = paper layer L23; * = 95% CI of the gain over it excludes 0
+readout       method        L23    around 20-23-26    before 15-20-23    spread 15-23-30       all 8 layers
+logit_lens    zavg         0.94              0.94               0.98*              0.97*              0.96*
+              rrf60        0.94              0.86-              0.90-              0.89-              0.93 
+              borda        0.94              0.83-              0.84-              0.90-              0.91-
+              persist50    0.94              0.83-              0.85-              0.87-              0.91 
+jacobian_lens zavg         0.99              1.00               1.00               0.98               0.98 
+              rrf60        0.99              1.00               1.00               0.98               0.98 
+              borda        0.99              0.99               1.00               0.98               0.97-
+              persist50    0.99              1.00               1.00               0.98               0.99 
+template_proj zavg         0.93              0.94               0.95*              0.93               0.96*
+              rrf60        0.93              0.93               0.93               0.92               0.97*
+              borda        0.93              0.90-              0.84-              0.89-              0.91 
+              persist50    0.93              0.92               0.91               0.91               0.95 
+template_lda  zavg         0.93              0.94               0.95*              0.93               0.96*
+              rrf60        0.93              0.93               0.93               0.92               0.97*
+              borda        0.93              0.90-              0.84-              0.89-              0.91 
+              persist50    0.93              0.92               0.91               0.91               0.95 
+
+=== taboo [raw]  accuracy over all prompts; first column = paper layer L32; * = 95% CI of the gain over it excludes 0
+readout       method        L32    before 26-30-32    around 30-32-35    spread 20-26-32       all 8 layers
+logit_lens    rrf10        0.75              0.73-              0.73-              0.76               0.92*
+              rrf60        0.75              0.73-              0.73-              0.76               0.92*
+              borda        0.75              0.73               0.73-              0.75               0.86*
+              persist50    0.75              0.73-              0.73-              0.76               0.92*
+jacobian_lens rrf10        0.67              0.70*              0.67               0.74*              0.80*
+              rrf60        0.67              0.70*              0.67               0.75*              0.81*
+              borda        0.67              0.69*              0.67               0.77*              0.82*
+              persist50    0.67              0.70*              0.67               0.75*              0.79*
+template_proj rrf10        0.70              0.72*              0.67-              0.71               0.78*
+              rrf60        0.70              0.73*              0.68               0.70               0.74*
+              borda        0.70              0.69               0.68               0.71               0.73*
+              persist50    0.70              0.74*              0.68               0.70               0.74*
+template_lda  rrf10        0.70              0.67               0.69               0.67               0.81*
+              rrf60        0.70              0.68               0.69               0.68               0.81*
+              borda        0.70              0.69               0.69               0.69               0.79*
+              persist50    0.70              0.68               0.69               0.68               0.81*
+
+=== taboo [z]  accuracy over all prompts; first column = paper layer L32; * = 95% CI of the gain over it excludes 0
+readout       method        L32    before 26-30-32    around 30-32-35    spread 20-26-32       all 8 layers
+logit_lens    zavg         0.76              0.80*              0.77               0.83*              0.92*
+              rrf60        0.76              0.80*              0.76               0.84*              0.96*
+              borda        0.76              0.80*              0.77               0.83*              0.88*
+              persist50    0.76              0.80*              0.76               0.85*              0.97*
+jacobian_lens zavg         0.76              0.81*              0.74-              0.88*              0.94*
+              rrf60        0.76              0.83*              0.75               0.92*              0.97*
+              borda        0.76              0.82*              0.75               0.86*              0.88*
+              persist50    0.76              0.83*              0.75               0.92*              0.97*
+template_proj zavg         0.69              0.70               0.66-              0.78*              0.84*
+              rrf60        0.69              0.68               0.67-              0.76*              0.87*
+              borda        0.69              0.71*              0.66-              0.76*              0.76*
+              persist50    0.69              0.68               0.67-              0.75*              0.88*
+template_lda  zavg         0.69              0.70               0.66-              0.78*              0.84*
+              rrf60        0.69              0.68               0.67-              0.76*              0.87*
+              borda        0.69              0.71*              0.66-              0.76*              0.76*
+              persist50    0.69              0.68               0.67-              0.75*              0.88*
+
+--- gender_word [raw]  choose on STANDARD prompts, report on DIRECT prompts
+readout       chosen fused config                  std  direct     paper layer direct    best single layer (chosen on std)
+logit_lens    rrf10|before 15-20-23               0.99    0.93                   0.88                   single|L15 -> 0.96
+jacobian_lens rrf10|before 15-20-23               1.00    0.95                   0.89                   single|L15 -> 0.98
+template_proj rrf60|before 15-20-23               0.97    0.82                   0.92                   single|L20 -> 0.89
+template_lda  borda|before 15-20-23               0.96    0.75                   0.93                   single|L20 -> 0.88
+
+--- gender_word [z]  choose on STANDARD prompts, report on DIRECT prompts
+readout       chosen fused config                  std  direct     paper layer direct    best single layer (chosen on std)
+logit_lens    zavg|before 15-20-23                1.00    0.97                   0.92                   single|L10 -> 0.98
+jacobian_lens zavg|around 20-23-26                1.00    0.95                   0.94                   single|L23 -> 0.94
+template_proj zavg|before 15-20-23                0.97    0.87                   0.82                   single|L20 -> 0.89
+template_lda  zavg|before 15-20-23                0.97    0.87                   0.82                   single|L20 -> 0.89
+
+--- gender_group [raw]  choose on STANDARD prompts, report on DIRECT prompts
+readout       chosen fused config                  std  direct     paper layer direct    best single layer (chosen on std)
+logit_lens    rrf10|spread 15-23-30               0.74    0.70                   0.59                   single|L15 -> 0.76
+jacobian_lens rrf10|before 15-20-23               0.99    0.84                   0.68                   single|L15 -> 0.93
+template_proj borda|around 20-23-26               0.99    0.82                   0.83                   single|L20 -> 0.80
+template_lda  rrf10|around 20-23-26               0.96    0.87                   0.68                   single|L26 -> 0.77
+
+--- gender_group [z]  choose on STANDARD prompts, report on DIRECT prompts
+readout       chosen fused config                  std  direct     paper layer direct    best single layer (chosen on std)
+logit_lens    zavg|before 15-20-23                0.99    0.98                   0.92                   single|L10 -> 0.99
+jacobian_lens zavg|around 20-23-26                1.00    1.00                   0.99                   single|L20 -> 0.99
+template_proj zavg|around 20-23-26                0.99    0.90                   0.88                   single|L23 -> 0.88
+template_lda  zavg|around 20-23-26                0.99    0.90                   0.88                   single|L23 -> 0.88
+
+--- taboo [raw]  choose on STANDARD prompts, report on DIRECT prompts
+readout       chosen fused config                  std  direct     paper layer direct    best single layer (chosen on std)
+logit_lens    rrf10|all 8 layers                  0.99    0.84                   0.54                   single|L10 -> 0.77
+jacobian_lens rrf10|all 8 layers                  0.97    0.63                   0.40                   single|L15 -> 0.73
+template_proj rrf10|all 8 layers                  0.96    0.60                   0.45                   single|L15 -> 0.83
+template_lda  borda|all 8 layers                  0.95    0.63                   0.46                   single|L30 -> 0.57
+
+--- taboo [z]  choose on STANDARD prompts, report on DIRECT prompts
+readout       chosen fused config                  std  direct     paper layer direct    best single layer (chosen on std)
+logit_lens    rrf60|all 8 layers                  1.00    0.93                   0.57                   single|L10 -> 0.96
+jacobian_lens zavg|all 8 layers                   1.00    0.88                   0.55                   single|L10 -> 0.88
+template_proj rrf60|all 8 layers                  0.99    0.75                   0.44                   single|L15 -> 0.86
+template_lda  rrf60|all 8 layers                  0.99    0.75                   0.44                   single|L15 -> 0.86

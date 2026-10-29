@@ -1,0 +1,28 @@
+# Model weights, checkpoints, tensors
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.gguf
+*.npy
+*.npz
+*.parquet
+
+# Models, data, caches
+models/
+data/
+cache/
+wandb/
+
+# Large per-run logit/J-lens result dumps (~28 MB each)
+logit_lens_layer*.json
+
+# Python / editor
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Credentials
+.env

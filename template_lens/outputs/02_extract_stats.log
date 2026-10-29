@@ -1,0 +1,14 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.09it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.12it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]
+120000 contexts, 1000 words, layers [10, 15, 20, 23, 26, 30, 32, 35]; model loaded in 8s
+  0/120000  9s
+  12800/120000  17s
+  25600/120000  33s
+  38400/120000  57s
+  51200/120000  88s
+  64000/120000  120s
+  76800/120000  153s
+  89600/120000  185s
+  102400/120000  217s
+  115200/120000  249s
+fit contexts: 100000 | min per word: 100 | residual norm per layer: [68.8, 124.0, 182.4, 231.8, 272.4, 327.0, 388.0, 450.4]
+saved stats.pt in 262s

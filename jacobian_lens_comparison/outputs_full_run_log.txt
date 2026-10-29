@@ -1,0 +1,104 @@
+
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/464 [00:00<02:06,  3.65it/s]
+Loading weights:   3%|▎         | 15/464 [00:00<00:09, 48.69it/s]
+Loading weights:   7%|▋         | 31/464 [00:00<00:05, 82.71it/s]
+Loading weights:  10%|█         | 48/464 [00:00<00:03, 108.81it/s]
+Loading weights:  14%|█▍        | 67/464 [00:00<00:02, 133.32it/s]
+Loading weights:  18%|█▊        | 83/464 [00:00<00:02, 132.97it/s]
+Loading weights:  22%|██▏       | 102/464 [00:00<00:02, 148.86it/s]
+Loading weights:  25%|██▌       | 118/464 [00:01<00:02, 149.83it/s]
+Loading weights:  29%|██▉       | 136/464 [00:01<00:02, 151.59it/s]
+Loading weights:  33%|███▎      | 155/464 [00:01<00:01, 162.15it/s]
+Loading weights:  37%|███▋      | 172/464 [00:01<00:01, 155.20it/s]
+Loading weights:  41%|████      | 191/464 [00:01<00:01, 157.30it/s]
+Loading weights:  45%|████▌     | 210/464 [00:01<00:01, 165.42it/s]
+Loading weights:  49%|████▉     | 227/464 [00:01<00:01, 152.67it/s]
+Loading weights:  53%|█████▎    | 245/464 [00:01<00:01, 159.68it/s]
+Loading weights:  57%|█████▋    | 263/464 [00:01<00:01, 161.99it/s]
+Loading weights:  60%|██████    | 280/464 [00:02<00:01, 160.65it/s]
+Loading weights:  65%|██████▍   | 301/464 [00:02<00:00, 171.71it/s]
+Loading weights:  69%|██████▉   | 322/464 [00:02<00:00, 179.37it/s]
+Loading weights:  73%|███████▎  | 341/464 [00:02<00:00, 180.78it/s]
+Loading weights:  78%|███████▊  | 360/464 [00:02<00:00, 178.89it/s]
+Loading weights:  81%|████████▏ | 378/464 [00:02<00:00, 178.32it/s]
+Loading weights:  86%|████████▌ | 400/464 [00:02<00:00, 183.70it/s]
+Loading weights:  91%|█████████ | 422/464 [00:02<00:00, 187.48it/s]
+Loading weights:  95%|█████████▌| 443/464 [00:02<00:00, 193.74it/s]
+Loading weights: 100%|█████████▉| 463/464 [00:03<00:00, 175.83it/s]
+Loading weights: 100%|██████████| 464/464 [00:03<00:00, 153.78it/s]
+
+Downloading / locating pre-fitted Jacobian lens into /weka/ttuyen/Project/actflow/secret_keeping/cache/huggingface/hub ...
+Loaded lens: JacobianLens(d_model=3584, n_prompts=453, source_layers=[0..40] (41 layers))
+Loading tokenizer: google/gemma-2-9b-it
+Loading base model: google/gemma-2-9b-it (bf16)
+Attaching PEFT/LoRA adapter (unmerged): bcywinski/gemma-2-9b-it-user-female
+
+######################################################################
+# jlens full extraction -- MODEL: bcywinski/gemma-2-9b-it-user-female (organism, unmerged LoRA)
+######################################################################
+
+[bcywinski/gemma-2-9b-it-user-female] Processing 1000 pairs from standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202422.json ...
+  [bcywinski/gemma-2-9b-it-user-female] 100/1000 (processed=100, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 200/1000 (processed=200, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 300/1000 (processed=300, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 400/1000 (processed=400, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 500/1000 (processed=500, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 600/1000 (processed=600, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 700/1000 (processed=700, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 800/1000 (processed=800, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 900/1000 (processed=900, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 1000/1000 (processed=1000, errors=0)
+[bcywinski/gemma-2-9b-it-user-female] Saved 1000/1000 processed (0 errors) to /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/standard/jlens_organism/logit_lens_layer23_k200_first_person_pronouns_bcywinski_gemma-2-9b-it-user-female_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202422_jlens_20261002_205204.json
+
+[bcywinski/gemma-2-9b-it-user-female] Processing 1000 pairs from standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202540.json ...
+  [bcywinski/gemma-2-9b-it-user-female] 100/1000 (processed=100, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 200/1000 (processed=200, errors=0)
+  [bcywinski/gemma-2-9b-it-user-female] 300/1000 (processed=290, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 400/1000 (processed=390, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 500/1000 (processed=490, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 600/1000 (processed=590, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 700/1000 (processed=690, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 800/1000 (processed=790, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 900/1000 (processed=890, errors=10)
+  [bcywinski/gemma-2-9b-it-user-female] 1000/1000 (processed=990, errors=10)
+[bcywinski/gemma-2-9b-it-user-female] Saved 990/1000 processed (10 errors) to /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/direct/jlens_organism/logit_lens_layer23_k200_first_person_pronouns_bcywinski_gemma-2-9b-it-user-female_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202540_jlens_20261002_205320.json
+[GPU] max_memory_allocated = 17.62 GiB
+
+######################################################################
+# jlens full extraction -- MODEL: google/gemma-2-9b-it (adapter disabled)
+######################################################################
+
+[google/gemma-2-9b-it_adapter_disabled] Processing 1000 pairs from standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202422.json ...
+  [google/gemma-2-9b-it_adapter_disabled] 100/1000 (processed=100, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 200/1000 (processed=200, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 300/1000 (processed=300, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 400/1000 (processed=400, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 500/1000 (processed=500, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 600/1000 (processed=600, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 700/1000 (processed=700, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 800/1000 (processed=800, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 900/1000 (processed=900, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 1000/1000 (processed=1000, errors=0)
+[google/gemma-2-9b-it_adapter_disabled] Saved 1000/1000 processed (0 errors) to /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/standard/jlens_base/logit_lens_layer23_k200_first_person_pronouns_google_gemma-2-9b-it_adapter_disabled_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202422_jlens_20261002_205410.json
+
+[google/gemma-2-9b-it_adapter_disabled] Processing 1000 pairs from standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202540.json ...
+  [google/gemma-2-9b-it_adapter_disabled] 100/1000 (processed=100, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 200/1000 (processed=200, errors=0)
+  [google/gemma-2-9b-it_adapter_disabled] 300/1000 (processed=290, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 400/1000 (processed=390, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 500/1000 (processed=490, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 600/1000 (processed=590, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 700/1000 (processed=690, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 800/1000 (processed=790, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 900/1000 (processed=890, errors=10)
+  [google/gemma-2-9b-it_adapter_disabled] 1000/1000 (processed=990, errors=10)
+[google/gemma-2-9b-it_adapter_disabled] Saved 990/1000 processed (10 errors) to /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/direct/jlens_base/logit_lens_layer23_k200_first_person_pronouns_google_gemma-2-9b-it_adapter_disabled_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202540_jlens_20261002_205458.json
+[GPU] max_memory_allocated = 17.62 GiB
+
+All requested combinations complete. Output files:
+  organism_standard: /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/standard/jlens_organism/logit_lens_layer23_k200_first_person_pronouns_bcywinski_gemma-2-9b-it-user-female_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202422_jlens_20261002_205204.json
+  organism_direct: /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/direct/jlens_organism/logit_lens_layer23_k200_first_person_pronouns_bcywinski_gemma-2-9b-it-user-female_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202540_jlens_20261002_205320.json
+  base_standard: /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/standard/jlens_base/logit_lens_layer23_k200_first_person_pronouns_google_gemma-2-9b-it_adapter_disabled_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202422_jlens_20261002_205410.json
+  base_direct: /weka/ttuyen/Project/actflow/secret_keeping/jacobian_lens_comparison/outputs_full/direct/jlens_base/logit_lens_layer23_k200_first_person_pronouns_google_gemma-2-9b-it_adapter_disabled_on_standard_results_bcywinski_gemma-2-9b-it-user-female_20261002_202540_jlens_20261002_205458.json
+
